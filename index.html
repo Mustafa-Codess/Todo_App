@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Todo App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- External stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>📝 Todo App</h1>
+
+    <label for="title">Title</label>
+    <input type="text" id="title" placeholder="Enter todo title">
+
+    <label for="desc">Description</label>
+    <textarea id="desc" rows="5" placeholder="Enter todo description"></textarea>
+
+    <button id="btn" onclick="addtodo()">Add TODO</button>
+  </div>
+
+  <div id="todo">
+    <!-- Dynamic todo list will appear here -->
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

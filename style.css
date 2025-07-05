@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #d9a7c7, #fffcdc);
+  min-height: 100vh;
+  padding: 30px;
+}
+
+.container {
+  max-width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.container h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #4b2c5e;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  transition: 0.2s;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #b983ff;
+  background-color: #fff;
+}
+
+#btn {
+  margin-top: 20px;
+  padding: 12px;
+  width: 100%;
+  background-color: #b983ff;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn:hover {
+  background-color: #9d6eff;
+}
+
+#todo {
+  max-width: 500px;
+  margin: 30px auto 0;
+}
+
+#todo div {
+  background-color: #f7f7f7;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+#todo h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+#todo p {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+#todo button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #6c63ff;
+  transition: 0.2s;
+}
+
+#todo button:hover {
+  color: #4834d4;
+}
